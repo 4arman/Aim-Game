@@ -35,7 +35,7 @@ function randomNumber(min,max) {
     return Math.random() * (max - min) + min
 }
 
-let num = randomNumber(300, 700)
+let num = randomNumber(10, 450)
 
 function setGameTime(btn, timing) {
     btn.addEventListener('click', () => {
